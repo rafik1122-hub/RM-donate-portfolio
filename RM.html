@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body> <section class="top1">
+    <div class="header">
+    <h1>
+        Let’s Help Those Who Are <br>
+More In Need 
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli <br>
+deterruisset. No duo populo animal noluisse, enim
+    </p>
+    <a class="link-button" target="_blank" href="#"> <b> Donate Now </a>
+
+</div> </section>
+<div class="today">
+    <h1>Donate Today</h1>
+    <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli 
+        deterruisset. No duo populo animal noluisse, enim</p>
+
+        <form onsubmit="return false;">
+            <input type="button" value="$10" onclick="displayAmount(10)">
+            <input type="button" value="$20" onclick="displayAmount(20)">
+            <input type="button" value="$50" onclick="displayAmount(50)">
+            <input type="button" value="$100" onclick="displayAmount(100)">
+            <br><br>
+            <p id="display"></p>
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+          
+          <script>
+            function displayAmount(amount) {
+              document.getElementById("display").innerHTML = "Selected Amount: $" + amount;
+            }
+          </script>
+          
+          
+
+</body>
+</html>
